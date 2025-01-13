@@ -1,0 +1,1 @@
+export { default as MintMonsters } from './MintMonsters'; 
