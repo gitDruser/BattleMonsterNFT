@@ -72,7 +72,8 @@ compiler_config.json:
         }
     }
 }
-``
+```
+
 ## Frontend Setup Guide
 
 ### Prerequisites
