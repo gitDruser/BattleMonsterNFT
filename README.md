@@ -49,18 +49,6 @@
 3. Check new monster stats
 4. Verify breeding cooldown with `getBreedingInfo(tokenId)`
 
-## Common Test Scenarios
-1. Try attacking when it's not your turn
-2. Try using a monster you don't own
-3. Try breeding non-Genesis monsters
-4. Try breeding same monster twice
-5. Test battle timeout with `timeoutBattle(battleId)`
-
-## Advanced Testing
-1. Create multiple battles simultaneously
-2. Test critical hits system with different guesses
-3. Try canceling challenges with `cancelChallenge`
-4. Check battle history through events
 
 Remix IDE Compile options:
 
