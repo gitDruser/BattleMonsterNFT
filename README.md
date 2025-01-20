@@ -55,6 +55,7 @@ Remix IDE Compile options:
 Advanced Configurations -> Check optimization - 200 and Use configuration file with:
 
 compiler_config.json:
+```json
 {
     "language": "Solidity",
     "settings": {
@@ -71,7 +72,7 @@ compiler_config.json:
         }
     }
 }
-
+``
 ## Frontend Setup Guide
 
 ### Prerequisites
@@ -85,13 +86,13 @@ compiler_config.json:
 ### Step 2: Start Local Blockchain and Deploy Contract
 1. Open a new terminal and start the Hardhat node
 ```bash
-# In the ETH_Smartcontract directory
+# In the Root directory
 npx hardhat node
 ```
 
 2. Open another terminal and deploy the contract
 ```bash
-# In the ETH_Smartcontract directory
+# In Root directory
 npx hardhat run scripts/deploy.ts --network localhost
 ```
 
